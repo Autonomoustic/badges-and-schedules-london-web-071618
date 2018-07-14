@@ -10,7 +10,7 @@ end
 end
 
 def assign_rooms(attendees)
-  attendees.each_with_index.map { |attendee, index|  }
+  attendees.each_with_index.map do  |attendee, index| 
   "Hello, #{attendee}! you'll be assigned to room #{index+1}"
 end
 end
